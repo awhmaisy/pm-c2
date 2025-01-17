@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Home - PRECISION MACHINERY</title>
+        <title>PRECISION MACHINERY</title>
         <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/PM-C2DIV-SOCIAL.png" type="image/png" />
       </Head>
