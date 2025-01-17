@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Nav from "./components/Nav";
-import Image from 'next/image'; // Correctly import Image from 'next/image'
+import Image from 'next/image';
 
 export default function Home() {
   return (
@@ -12,7 +12,8 @@ export default function Home() {
       </Head>
       <div>
         <Nav />
-        <p>PRECISION MACHINERY is a two-division company. we practice the creation and cultivation of personal and professional brands through legacy-driven apparel, design services and metalworks.
+        <p>
+          PRECISION MACHINERY is a two-division company. we practice the creation and cultivation of personal and professional brands through legacy-driven apparel, design services and metalworks.
         </p>
         <div className="flex justify-center pt-12">
           <div className="w-1/2">

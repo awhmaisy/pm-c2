@@ -1,13 +1,15 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Head from 'next/head';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'PM/C2/DIST',
+    description: 'PRECISION MACHINERY Distribution Department'
+};
 
 export default function Design() {
     return (
         <div>
-            <Head>
-                <title>PM/C2/DIST</title>
-            </Head>
             <Nav />
             <p>
                 OUR DISTRIBUTION DEPARTMENT supplies various engineering parts and cohesion services to industry, with particular focus on alumninum, stainless steel, titanium and other high-performance materials.
