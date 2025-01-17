@@ -16,7 +16,21 @@ export const metadata: Metadata = {
   title: "PRECISION MACHINERY",
   description: "PRECISION MACHINERY C² DIVISION",
   icons: {
-    icon: '/PM-C2DIV-SOCIAL.png', // Place your favicon.png in the public folder
+    icon: [
+      {
+        url: '/PM-C2DIV-SOCIAL.png',
+        type: 'image/png',
+      },
+      {
+        url: '/favicon.ico',
+        sizes: 'any',
+      },
+    ],
+  },
+  openGraph: {
+    title: "PRECISION MACHINERY",
+    description: "PRECISION MACHINERY C² DIVISION",
+    images: '/PM-C2DIV-SOCIAL.png',
   },
 };
 
