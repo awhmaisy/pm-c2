@@ -1,7 +1,6 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Head from 'next/head';
-import Image from 'next/image';
 
 export default function Design() {
     return (
