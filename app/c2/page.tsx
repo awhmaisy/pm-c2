@@ -1,11 +1,12 @@
 import React from 'react';
 import Nav from '../components/Nav';
 import Head from 'next/head';
-export default function c2() {
+
+export default function C2() {
     return (
         <div>
             <Head>
-                <title>PM/C2/C2<</title>
+                <title>PM/C2/C2</title>
                 <link rel="icon" href="/favicon.ico" sizes="any" />
             </Head>
 
