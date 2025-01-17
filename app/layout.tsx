@@ -41,10 +41,15 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <link rel="icon" href="/favicon.ico" sizes="any" />
+        <link rel="icon" href="/PM-C2DIV-SOCIAL.png" type="image/png" />
+      </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         style={{ width: '500px', margin: 'auto', textAlign: 'justify', textJustify: 'inter-word' }}
-      >        {children}
+      >
+        {children}
       </body>
     </html>
   );
