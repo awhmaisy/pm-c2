@@ -35,7 +35,7 @@ export default function Home() {
             <br />
               <p>INTERVIEW OF INTENT</p>
               <p>DESIGN SYSTEMS (PRINT, WEB)</p>
-              <p>BRAND WHITEPAPERS</p>
+              <p>NARRATIVE COMMAND</p>
               <p>BLACK BOX PLANNING</p>
           </div>
         </div>
