@@ -1,15 +1,21 @@
 import React from 'react';
-import Head from 'next/head';
 import Nav from "./components/Nav";
 import Image from 'next/image';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'C:/PM-C2/HOME',
+    description: 'MAIN',
+    icons: {
+        icon: {
+            url: '/favicon.ico',
+            sizes: 'any',
+        },
+    }
+};
 
 export default function Home() {
   return (
-    <>
-      <Head>
-        <title>PRECISION MACHINERY</title>
-        <link rel="icon" href="/favicon.ico" sizes="any" />
-      </Head>
       <div>
         <Nav />
         <p>
@@ -43,6 +49,5 @@ export default function Home() {
           />
         </div>
       </div>
-    </>
   );
 }

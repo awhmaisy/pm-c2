@@ -1,4 +1,3 @@
-import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 
@@ -11,28 +10,6 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
-
-export const metadata: Metadata = {
-  title: "PRECISION MACHINERY",
-  description: "PRECISION MACHINERY C² DIVISION",
-  icons: {
-    icon: [
-      {
-        url: '/PM-C2DIV-SOCIAL.png',
-        type: 'image/png',
-      },
-      {
-        url: '/favicon.ico',
-        sizes: 'any',
-      },
-    ],
-  },
-  openGraph: {
-    title: "PRECISION MACHINERY",
-    description: "PRECISION MACHINERY C² DIVISION",
-    images: '/PM-C2DIV-SOCIAL.png',
-  },
-};
 
 export default function RootLayout({
   children,

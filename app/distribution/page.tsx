@@ -3,8 +3,14 @@ import Nav from '../components/Nav';
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'PM/C2/DIST',
-    description: 'PRECISION MACHINERY Distribution Department'
+    title: 'C:/PM-C2/DIST',
+    description: 'DISTRIBUTION',
+    icons: {
+        icon: {
+            url: '/favicon.ico',
+            sizes: 'any',
+        },
+    }
 };
 
 export default function Design() {

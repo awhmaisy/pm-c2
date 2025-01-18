@@ -1,15 +1,21 @@
 import React from 'react';
 import Nav from '../components/Nav';
-import Head from 'next/head';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+    title: 'C:/PM-C2/DESIGN',
+    description: 'DESIGN',
+    icons: {
+        icon: {
+            url: '/favicon.ico',
+            sizes: 'any',
+        },
+    }
+};
 
 export default function C2() {
     return (
         <div>
-            <Head>
-                <title>PM/C2/C2</title>
-                <link rel="icon" href="/favicon.ico" sizes="any" />
-            </Head>
-
             <Nav />
             <h1>C² -- CREATIVITY AND CULTIVATION</h1>
             <br />
